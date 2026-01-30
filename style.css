@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding: 11.14px 100.23px 11.14px 100.23px; 
+    gap: 43.85px;
+    padding-top: 40px;
+}
+
+.navlinks{
+    display: flex;
+    gap: 16.71px;
+    align-items: center;
+}
+
+
+.navlinks li{
+    list-style: none;
+
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+    font-family: inter;
+    font-weight: 500px;
+    
+}
+
+#registerbtn{
+    background-color: transparent;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-family: inter;
+    font-weight: 500;
+    padding: 9.74px 22.27px 9.74px 22.27px;
+    gap: 5.57px;
+    border: none;
+    border-radius: 2px;
+
+
+}
+
