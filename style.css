@@ -1,42 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+/* header start */
+header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     background-color: white;
-    padding: 11.14px 100.23px 11.14px 100.23px; 
+    padding: 11.14px 100.23px 11.14px 100.23px;
     gap: 43.85px;
     padding-top: 40px;
 }
 
-.navlinks{
+.navlinks {
     display: flex;
     gap: 16.71px;
     align-items: center;
 }
 
 
-.navlinks li{
+.navlinks li {
     list-style: none;
 
 }
 
-.navlinks li a{
+.navlinks li a {
     text-decoration: none;
     color: black;
     font-family: inter;
     font-weight: 500px;
-    
+
 }
 
-#registerbtn{
+#registerbtn {
     background-color: transparent;
     background-color: #4CAF4F;
     color: #FFFFFF;
@@ -46,7 +47,170 @@ header{
     gap: 5.57px;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
+}
 
+/* header end */
+
+/* hero section start */
+.mainhero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0px;
+    background-color: #F5F7FA;
 
 }
 
+.contenthero {
+    padding: 66.82px 300.23px 66.82px 10.23px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenthero h1 {
+    font-family: inter;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 44.55px;
+}
+
+#year {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 44.55px;
+    color: #4CAF4F;
+}
+
+.contenthero p {
+    font-family: inter;
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 11.44px;
+}
+
+.heropic {
+    width: 272.16px;
+    height: 283.3px;
+}
+
+/* hero section end */
+
+/* client section start */
+.mainclient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.ourclient {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+
+.ourclient h1 {
+    font-family: inter;
+    color: hsl(0, 1%, 20%);
+    font-weight: 600;
+    font-size: 25.06px;
+}
+
+.ourclient p {
+    font-family: inter;
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 11.23;
+}
+
+.logo img {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 30px;
+}
+
+/* clien t section end */
+/* single system start */
+.mainsingle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contentsingle {
+    display: flex;
+    flex-direction: column;
+    gap: 5.57px;
+}
+
+.contentsingle h1 {
+    color: #4D4D4D;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 25.06px;
+
+}
+
+.contentsingle p {
+    color: #717171;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 11.14px;
+
+}
+
+/* single system end */
+/* 3 group start */
+.maingroup {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100.23px;
+    padding-left: 100.23px;
+    padding: 20px;
+}
+
+.group1content {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.group1 {
+    box-shadow: 1px 1px 1px 1px #ABBED133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.group1 h1 {
+    color: #4D4D4D;
+    font-family: inter;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 19.49px;
+}
+
+.group1 p {
+    color: #717171;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 9.74px;
+
+}
+
+
+/* 3 group end */
