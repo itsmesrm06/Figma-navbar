@@ -50,6 +50,10 @@ header {
     cursor: pointer;
 }
 
+h1 .bar {
+    display: none;
+}
+
 /* header end */
 
 /* hero section start */
@@ -140,7 +144,12 @@ header {
     padding: 30px;
 }
 
-/* clien t section end */
+#srm {
+    width: 100px;
+
+}
+
+/* client section end */
 /* single system start */
 .mainsingle {
     display: flex;
@@ -178,7 +187,7 @@ header {
     justify-content: space-around;
     padding-right: 100.23px;
     padding-left: 100.23px;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .group1content {
@@ -194,6 +203,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding: 10px;
 }
 
 .group1 h1 {
@@ -212,5 +222,332 @@ header {
 
 }
 
-
 /* 3 group end */
+
+/* pixel section start */
+.mainpixel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100.23px;
+    padding-left: 100.23px;
+    padding-top: 40px;
+    gap: 90px;
+    padding-bottom: 40px;
+}
+
+.contentpixel {
+    display: flex;
+    flex-direction: column;
+    gap: 22.27px;
+
+}
+
+.contentpixel h1 {
+    font-family: inter;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 40.06px;
+}
+
+.contentpixel p {
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 400;
+    color: #717171;
+    text-align: justify;
+}
+
+/* pixel section end */
+
+/* Achievements section start */
+
+.mainAchievements {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+
+
+
+}
+
+.contentAchievements {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5.57px;
+}
+
+.contentAchievements h1 {
+    font-family: inter;
+    font-size: 40.06px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+#itself {
+    color: #4CAF4F;
+}
+
+.contentAchievements p {
+    color: #18191F;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: inter;
+}
+
+
+
+.iconachivement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    gap: 90px;
+
+}
+
+.icon12 h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 19.49px;
+    line-height: 25.06px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+}
+
+.icon12 p {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    letter-spacing: 0%;
+    color: #717171;
+}
+
+.icon34 h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 19.49px;
+    line-height: 25.06px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+}
+
+.icon34 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    letter-spacing: 0%;
+    color: #717171;
+}
+
+/* Achievements section end */
+/* fram start */
+.onlyfram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(210, 2%, 84%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mainfram {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainfram h1 {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 55px;
+    color: #263238;
+}
+
+/* fram end */
+
+/* footer start */
+footer {
+    width: 100%;
+    background-color: #263238;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fisrtfotter {
+    padding-top: 60.55px;
+    padding-right: 140px;
+    padding-bottom: 44.55px;
+    padding-left: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+
+.paragragh p {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.paragragh {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.socailicon {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.secondfooter h1 {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+
+.secondfooter {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 40px;    */
+    gap: 30px;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.secondfooter li {
+    list-style: none;
+
+}
+
+.secondfooter li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footernav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerfour{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.footerfour h1{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.footerfour input{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.searchemail{
+    background-color: #515b60;
+    padding: 10px;
+    border-radius: 3px;
+}
+.searchemail input::placeholder{
+    color: white;
+    font-family: inter;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.maininput{
+    display: flex;
+    gap: 100px;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+
+    /* navbar */
+    .navlinks {
+        display: none;
+    }
+
+    h1 .bar {
+
+        display: block;
+        width: 100%;
+    }
+
+    /* navbar end */
+
+    /* hero section */
+    .heropic img {
+        width: 100%;
+    }
+
+    .contenthero {
+        width: 100%;
+    }
+
+    .mainhero {
+        flex-direction: column-reverse;
+        padding: 30px 40px;
+    }
+
+    /* hero section end */
+
+    /* client section */
+    .logos {
+        flex-direction: column;
+    }
+
+    .ourclient p {
+        font-size: 10px;
+    }
+
+    /* client section end */
+
+
+
+    .maingroup {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
